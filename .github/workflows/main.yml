@@ -23,8 +23,8 @@ jobs:
         cd dist
         git init
         git add -A
-        git config --local user.email "guifreitas89@hotmail.com"
-        git config --local user.name "ntanck"
+        git config --local user.email "g.fr@tuta.io"
+        git config --local user.name "gfrn"
         git commit -m 'deploy'
 
     - name: Force push to destination branch
